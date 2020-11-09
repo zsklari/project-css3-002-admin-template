@@ -3,23 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Admin Page</title>
     <link rel="stylesheet" href="css\font-awesome-4.7.0\css\font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <!--Header-->
     <header class="header--dark">
-        <h3  class="header__title">Admin Page</h3>
+        <h3 class="header__title">Admin Page</h3>
         <div class="header__search">
-            <input type="text" class="search-input">
-            <button class="search__btn"></button>
+            <input type="text" class="search__input" placeholder="Search for...">
+            <button class="search__btn">
+                <i class="fa fa-search"></i>
+            </button>
         </div>
-    </header>    
-    <main>
+    </header>
+    <main class="main">
         <aside>
-
+            <nav class="main__nav">
+                <ul class="nav__ul">
+                    <li>core</li>
+                    <li>
+                        <a href="">
+                            <i class="fa fa-tachometer"></i>
+                        </a>
+                    </li>
+                    <li>interface</li>
+                    <li>
+                        <a href="">
+                            <i class="fa fa-windows"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="fa fa-bookmark"></i>
+                        </a>
+                    </li>
+                    <li>actions</li>
+                    <li>
+                        <a href="">
+                            <i class="fa fa-area-chart"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="fa fa-table"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
         </aside>
-        <section>
-
+        <section class="content">
+            <h1>Dashboard</h1>
+            <div class="main__breadcrumb">
+                Dashboard
+            </div>
+            <div class="main__cards">
+                <div class="main__card">
+                    <div class="card__top">
+                        Primary Card
+                    </div>
+                    <div class="card__bottom">
+                        Veiw Details
+                        <i class="fa fa-angle-right"></i>
+                    </div>
+                </div>
+                <div class="main__card">
+                    <div class="card__top">
+                        Warning Card
+                    </div>
+                    <div class="card__bottom">
+                        Veiw Details
+                        <i class="fa fa-angle-right"></i>
+                    </div>
+                </div>
+                <div class="main__card">
+                    <div class="card__top">
+                        Success Card
+                    </div>
+                    <div class="card__bottom">
+                        Veiw Details
+                        <i class="fa fa-angle-right"></i>
+                    </div>
+                </div>
         </section>
     </main>
 </body>

@@ -9,7 +9,7 @@ html {
 .aside {
     background-color: #333741;
     min-width: 12rem;
-    color: #236236236;
+    color: rgb(236,236,236);
     text-transform: uppercase;
 }
 
@@ -32,7 +32,7 @@ body {
 .header--dark {
     align-items: center;
     background-color: #515764;
-    color: #236236236;
+    color: rgb(236,236,236);
     display: flex;
     flex-direction: row;
     height: 3rem;
@@ -80,7 +80,7 @@ body {
 }
 
 .main__card--blue {
-    background-color: #233236239;
+    background-color: rgb(233,236,239);
 
 }
 
@@ -101,11 +101,11 @@ body {
 }
 
 .search__btn {
-    background-color: #0123255);
+    background-color: rgb(0,123,255);
     border: none;
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
-    color: #236236236);
+    color: rgb(236,236,236);
     font-size: 1.2rem;
     margin-left: -1px;
 }
